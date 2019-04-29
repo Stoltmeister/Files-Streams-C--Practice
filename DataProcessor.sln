@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProcessor", "DataProcessor.csproj", "{243E5CFB-D13F-46E9-8620-546895C7138A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243E5CFB-D13F-46E9-8620-546895C7138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243E5CFB-D13F-46E9-8620-546895C7138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243E5CFB-D13F-46E9-8620-546895C7138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243E5CFB-D13F-46E9-8620-546895C7138A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A4D2CB-0B00-424C-98E6-9053E9B94CE7}
+	EndGlobalSection
+EndGlobal
