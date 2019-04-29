@@ -77,7 +77,14 @@ namespace DataProcessor
             WriteLine($"Moving {inProgressFilePath} to {completedDirectoryPath}");
 
             var completedFileName = $"{Path.GetFileNameWithoutExtension(InputFilePath)}-{Guid.NewGuid()}{extension}";
+            //completedFileName = Path.ChangeExtension(completedFileName, ".complete");
 
+            var completedFilePath = Path.Combine(completedDirectoryPath, completedFileName);
+
+            File.Move(inProgressFilePath, completedFilePath);
+
+            string inProgressDirectoryPath = Path.GetDirectoryName(inProgressFilePath);
+            Directory.Delete(inProgressDirectoryPath, true);
         }
 
         private void ProcessTextFile(string inProgressFilePath)
